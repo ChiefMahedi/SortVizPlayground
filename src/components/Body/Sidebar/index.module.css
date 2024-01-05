@@ -79,3 +79,26 @@
     font-size: 13px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .sidebar-content {
+   justify-content: center;
+  }
+  .algo-desc{
+    width: 120px;
+  }
+  .algo-comp{
+    width: 120px;
+  }
+  .algo-desc-title {
+    font-size: 0.5em;
+  }
+  .algo-comp-title {
+    font-size: 0.5em;
+  }
+  .complexity-table th, td{
+    font-size: 0.6em;
+  }
+  .algo-desc-details {
+    font-size: 11px;
+  }
+}
