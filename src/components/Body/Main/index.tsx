@@ -16,10 +16,10 @@ export default function Main(props: MainProps) {
     //To handle the sort button event
     function handleSort(e: React.MouseEvent<HTMLButtonElement>) {
         e.preventDefault();
-        if (props.algorithm === 'bubblesort') {
+        if (props.algorithm === 'Bubble Sort') {
             animateBubbleSort();
         }
-        if (props.algorithm === 'mergesort') {
+        if (props.algorithm === 'Merge Sort') {
             animateMergeSort();
         }
     }
@@ -93,8 +93,8 @@ export default function Main(props: MainProps) {
                             Choose an <span className={style['algo-text']}>algorithm</span>
                         </label>
                         <select id="algorithm" className={style['select-algo']} onChange={handleAlgorithmChange}>
-                            <option value="bubblesort">Bubble Sort</option>
-                            <option value="mergesort">Merge Sort</option>
+                            <option value="Bubble Sort">Bubble Sort</option>
+                            <option value="Merge Sort">Merge Sort</option>
                         </select>
                     </div>
                     <button className={style['gen-seq-btn']} onClick={handleGenerateSequence}>
