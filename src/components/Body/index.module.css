@@ -3,3 +3,10 @@
     justify-content: center;
     height: 800px;
 }
+@media (max-width: 768px) {
+    .main-body{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
