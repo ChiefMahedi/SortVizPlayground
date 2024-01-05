@@ -27,4 +27,13 @@
     font-size: 13px;
     font-weight: normal;
     padding: 5px;
+    color: rgb(53, 53, 53);
+}
+
+@media (max-width: 768px) {
+    .header{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
