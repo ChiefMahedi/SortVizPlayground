@@ -95,3 +95,8 @@
     padding: 10px;
   }
 }
+@media only screen and (max-width: 576px) {
+  .sorting-area {
+    width: 300px;
+  }
+}
