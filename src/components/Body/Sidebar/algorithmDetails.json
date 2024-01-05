@@ -1,0 +1,23 @@
+{
+    "algorithms": [
+      {
+        "name": "Bubble Sort",
+        "description": "Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order.",
+        "complexity": {
+          "worst_case": "O(n^2)",
+          "best_case": "O(n)",
+          "average_case": "O(n^2)"
+        }
+      },
+      {
+        "name": "Merge Sort",
+        "description": "Merge Sort is an efficient, stable, and comparison-based sorting algorithm that divides the unsorted list into smaller lists, sorts them, and then merges them.",
+        "complexity": {
+          "worst_case": "O(n log n)",
+          "best_case": "O(n log n)",
+          "average_case": "O(n log n)"
+        }
+      }
+    ]
+  }
+  
