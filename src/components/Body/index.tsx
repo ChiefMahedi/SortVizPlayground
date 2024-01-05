@@ -5,7 +5,7 @@ import { useState } from "react";
 
 export default function Body() {
     const [sequence, setSequence] = useState<number[]>([]); 
-    const [sortAlgorithm, setSortAlgorithm] = useState<string>('bubblesort');
+    const [sortAlgorithm, setSortAlgorithm] = useState<string>('Bubble Sort');
     return (
         <>
             <div className={style['main-body']}>
@@ -15,7 +15,7 @@ export default function Body() {
                     algorithm={sortAlgorithm}
                     changeAlgorithm={setSortAlgorithm}
                 />
-                <Sidebar />
+                <Sidebar algorithm = {sortAlgorithm} />
             </div>
         </>
     );
