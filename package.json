@@ -1,7 +1,9 @@
 {
   "name": "sortvizplayground",
-  "private": true,
-  "version": "0.0.0",
+  "author": "Mahedi Hassan Shawon",
+  "github": "https://github.com/ChiefMahedi/SortVizPlayground",
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
